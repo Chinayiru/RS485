@@ -15,15 +15,6 @@ import static com.lt.util.Concat.concat;
 public class Hex {
     //字符串转接符
     public String printHexString(byte[] readBuffer) {
-//        StringBuilder stringBuffer = new StringBuilder();
-//        for (byte b : readBuffer) {
-//            String hex = Integer.toHexString(b & 0xFF);
-//            if (hex.length() == 1) {
-//                hex = '0' + hex;
-//            }
-//            stringBuffer.append(hex.toUpperCase()).append("  ");
-//        }
-//        return stringBuffer.toString().trim();
         return bytesToHex(readBuffer).toUpperCase();
     }
 
