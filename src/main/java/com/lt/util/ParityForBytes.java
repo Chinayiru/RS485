@@ -5,6 +5,8 @@ package com.lt.util;
  * @data 2023/2/14 itime
  * @Description
  */
+
+//其余字节的奇偶校验
 public class ParityForBytes {
     public static byte[] setParityForBytes(byte[] data, int start, int end) {
         for (int i = start; i < end; i++) {
